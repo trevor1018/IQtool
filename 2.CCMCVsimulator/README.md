@@ -29,6 +29,8 @@ python CCMCVsimulator.py
 - 第一張圖片的 24 色塊 sRGB（B~D 欄）
 - 第二張圖片的 24 色塊 sRGB（I~K 欄）
 
+![輸出範例](images/exceloutput.jpg "Excel 輸出結果")
+
 ## 相依套件
 
 ```bash
