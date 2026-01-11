@@ -54,6 +54,8 @@ run_modify.bat
 - 24 色塊的 sRGB 數值
 - 自動生成的色差圖表
 
+![輸出範例](images/exceloutput.jpg "Excel 輸出結果")
+
 ## 相依套件
 
 ```bash
