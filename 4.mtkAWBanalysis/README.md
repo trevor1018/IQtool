@@ -47,6 +47,8 @@ python mtkAWBanalysis.py
 - 原圖縮圖
 - Gray World 色彩空間圖
 
+![輸出範例](images/exceloutput.jpg "Excel 輸出結果")
+
 ## Gray World 光源區域顏色對照
 
 | 顏色 | 光源 |
