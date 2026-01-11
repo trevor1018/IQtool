@@ -60,6 +60,8 @@ run_modify.bat
 
 ```bash
 pip install opencv-python numpy xlwings colour-checker-detection
+
+* colour_checker_detection直接安裝版本有可能無法使用，請替換成專案中的版本
 ```
 
 ## 附加工具
