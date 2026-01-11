@@ -1,4 +1,0 @@
-colour_checker_detection==0.1.4
-numpy==1.24.1
-opencv_python==4.7.0.68
-openpyxl==3.1.2

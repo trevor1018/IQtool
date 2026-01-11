@@ -1,1 +1,0 @@
-python colorCheckerAnalysis_modify.py
