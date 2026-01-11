@@ -46,6 +46,8 @@ python mtkAEanalysis.py
 - 灰階 Histogram（含 BT/MT/DT 閾值標線）
 - Face AE 資訊（如有）
 
+![輸出範例](images/exceloutput.jpg "Excel 輸出結果")
+
 ## Histogram 標線說明
 
 | 顏色 | 線型 | 說明 |
