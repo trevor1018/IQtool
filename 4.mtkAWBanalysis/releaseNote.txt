@@ -1,0 +1,17 @@
+
+---------------------------------------------------------------------------
+
+mtkAWBanalysis
+使用說明：
+
+	1. 使用Debug Parserc或MediaToolKit輸出需要分析的照片exif檔(選取AWB即可)、該圖檔以及對比機圖檔，放在同一個資料夾中
+	2. 檔名規則：ex: {1_FLC.jpg, 1_FLC.jpg.exif, 1_ZF7.jpg}, {2_FLC.jpg, 2_FLC.jpg.exif, 2_ZF7.jpg},......
+	3. 將三個檔案一組的資料放入Exif資料夾中，可以一次放入多組，結果會分別產生在不同Sheet中，每20組存一個excel檔，防止檔案過大
+	4. run mtkAWBanalysis.exe檔
+	5. 彈出選取視窗，選取照片拍攝時使用的AWB.cpp檔
+	6. 鍵入0代表無對比機照片，鍵入1代表有對比機照片
+	7. 會產生mtkAWBanalysis_yy_mm_dd_ss_startNum_endNum.xlsx
+
+----------------------------------------------------------------------------
+
+2022.04.06 First release
