@@ -1,0 +1,34 @@
+
+---------------------------------------------------------------------------
+
+mtkAEanalysis
+使用說明：
+
+	1. mtkAEclassify.exe處理完後，選擇要分析的照片區間，並將三個檔案一組的資料放入Exif資料夾中
+	2. 可以一次放入多組，結果會分別產生在不同Sheet中，每20組存一個excel檔，防止檔案過大
+	3. run mtkAEanalysis.exe檔
+	4. 彈出選取視窗，選取照片拍攝時使用的AE.cpp檔
+	5. 鍵入0代表無對比機照片，鍵入1代表有對比機照片
+	5. 會產生mtkAEanalysis_yy_mm_dd_ss_startNum_endNum.xlsx
+
+----------------------------------------------------------------------------
+
+2022.03.14 First release
+2022.12.05 exe更新、excel更新：更改數值計算由整數到四捨五入、加入FaceAE DRRA計算
+2022.12.08 exe更新、excel更新：修正flt_dr抓錯參數、flt_target數值計算錯誤問題
+2022.12.12 excel更新：修正Histogram權重計算錯誤問題
+2022.12.26 excel更新：修正night scence權重計算錯誤問題
+2023.01.04 exe更新、excel更新：新增SX3的exe及excel，因為MTK有更改一些AE tag名稱
+2023.01.09 exe更新：修正AE_TAG_HS_EVD只抓兩位數的問題
+2023.02.21 excel更新：修正Night mode prob計算錯誤問題
+2023.04.07 exe更新、excel更新：修正Face AE相關tag及fddr_ra計算錯誤問題
+2023.04.17 exe更新：修正多一組Middle tone造成的錯誤、fd_ns_bv修正
+2023.06.06 excel更新：修正Main Target中THD_L, THD_H的計算
+2023.06.07 excel更新：修正AE_TAG_CWV_FINAL_TARGET採計最終有臉場景的CWR值
+2023.06.08 excel更新：修正FLT_target, FBT_target的計算、FaceAE中使用到的tag名稱、FBT_FDTH, FBLT_FDTH的計算
+2023.06.09 exe更新：新增、修正Face fianl cwr計算相關數值
+2023.06.12 excel更新：修正P_FACE_Thd、FaceAE metering situation計算
+
+2023.06.26 exe停止更新、py更新：以執行py檔為主，停止exe更新
+
+2023.06.28 excel更新：設置參數歸零的巨集快捷建
